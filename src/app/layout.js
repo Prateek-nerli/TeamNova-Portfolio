@@ -9,17 +9,6 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-export const metadata = {
-  title: {
-    template:
-      "Next.js Portfolio Created with Three.js and Tailwind CSS | %s | CodeBucks",
-    default:
-      "Next.js Portfolio Created with Three.js and Tailwind CSS by CodeBucks",
-  },
-  description:
-    "A unique creative portfolio designed by CodeBucks with cutting-edge technologies like Next.js, Tailwind CSS, Three.js, and Framer Motion. Experience the art of modern web development firsthand. Checkout CodeBucks on youtube.",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

@@ -1,10 +1,6 @@
 import Image from "next/image";
 import bg from "../../../../public/background/contact-background.png";
 
-export const metadata = {
-  title: "Contact",
-};
-
 const members = [
   {
     name: "Rakshita Pendakur",
